@@ -122850,28 +122850,28 @@ A.uq.prototype={
 Ee(a,b,c){return this.af5(a,b,c)},
 af5(a,b,c){var s=0,r=A.q(t.ij),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f,e
 var $async$Ee=A.m(function(d,a0){if(d===1){o.push(a0)
-s=p}while(true)switch(s){case 0:i="https://taskmagics.com/api/checklist/my-projects/"+a
-h=t.N
+s=p}while(true)switch(s){case 0:h=t.N
 g=t.z
 f=A.Q(["employee_id",a],h,g)
-if(b!=null){k=b.bB()
-k.kR(k,new A.aDY())
-J.Wl(f,k)}A.b_("Final query params: "+A.k(f))
+if(b!=null){j=b.bB()
+j.kR(j,new A.aDY())
+J.Wl(f,j)}A.b_("Final query params: "+A.k(f))
 p=4
+m="https://taskmagics.com/api/checklist/my-projects/"+a+"/"
 s=7
-return A.j(n.a.v0(0,i,A.jj(A.Q(["Content-Type","application/json","Authorization","Bearer "+c],h,g)),f,g),$async$Ee)
-case 7:m=a0
-if(m.c===200){h=A.bAa(m.a)
+return A.j(n.a.v0(0,m,A.jj(A.Q(["Content-Type","application/json","Authorization","Bearer "+c],h,g)),f,g),$async$Ee)
+case 7:l=a0
+if(l.c===200){h=A.bAa(l.a)
 q=h
 s=1
-break}else{h=A.dl("Failed to load checklists: "+A.k(m.c))
+break}else{h=A.dl("Failed to load checklists: "+A.k(l.c))
 throw A.c(h)}p=2
 s=6
 break
 case 4:p=3
 e=o.pop()
-l=A.a_(e)
-h=A.dl("Error fetching checklists: "+A.k(l))
+k=A.a_(e)
+h=A.dl("Error fetching checklists: "+A.k(k))
 throw A.c(h)
 s=6
 break
@@ -125211,28 +125211,28 @@ A.t4.prototype={
 E4(a,b,c){return this.aeB(a,b,c)},
 aeB(a,b,c){var s=0,r=A.q(t.zY),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f,e
 var $async$E4=A.m(function(d,a0){if(d===1){o.push(a0)
-s=p}while(true)switch(s){case 0:i="https://taskmagics.com/api/checklist/my-checklists/"+a
-h=t.N
+s=p}while(true)switch(s){case 0:h=t.N
 g=t.z
 f=A.Q(["employee_id",a],h,g)
-if(b!=null){k=b.bB()
-k.kR(k,new A.amu())
-J.Wl(f,k)}A.b_("Final query params: "+A.k(f))
+if(b!=null){j=b.bB()
+j.kR(j,new A.amu())
+J.Wl(f,j)}A.b_("Final query params: "+A.k(f))
 p=4
+m="https://taskmagics.com/api/checklist/my-checklists/"+a+"/"
 s=7
-return A.j(n.a.v0(0,i,A.jj(A.Q(["Content-Type","application/json","Authorization","Bearer "+c],h,g)),f,g),$async$E4)
-case 7:m=a0
-if(m.c===200){h=A.bv5(m.a)
+return A.j(n.a.v0(0,m,A.jj(A.Q(["Content-Type","application/json","Authorization","Bearer "+c],h,g)),f,g),$async$E4)
+case 7:l=a0
+if(l.c===200){h=A.bv5(l.a)
 q=h
 s=1
-break}else{h=A.dl("Failed to load checklists: "+A.k(m.c))
+break}else{h=A.dl("Failed to load checklists: "+A.k(l.c))
 throw A.c(h)}p=2
 s=6
 break
 case 4:p=3
 e=o.pop()
-l=A.a_(e)
-h=A.dl("Error fetching checklists: "+A.k(l))
+k=A.a_(e)
+h=A.dl("Error fetching checklists: "+A.k(k))
 throw A.c(h)
 s=6
 break
